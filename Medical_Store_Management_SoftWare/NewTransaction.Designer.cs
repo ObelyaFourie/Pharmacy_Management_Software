@@ -51,51 +51,59 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe Script", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(15, 15);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(47, 15);
+            this.label1.Size = new System.Drawing.Size(88, 33);
             this.label1.TabIndex = 0;
             this.label1.Text = "Name: ";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(15, 46);
+            this.label2.Font = new System.Drawing.Font("Segoe Script", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(12, 73);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(51, 15);
+            this.label2.Size = new System.Drawing.Size(101, 33);
             this.label2.TabIndex = 1;
             this.label2.Text = "Mobile: ";
             // 
             // txt_Name
             // 
-            this.txt_Name.Location = new System.Drawing.Point(83, 15);
+            this.txt_Name.Location = new System.Drawing.Point(122, 20);
             this.txt_Name.Name = "txt_Name";
-            this.txt_Name.Size = new System.Drawing.Size(142, 21);
+            this.txt_Name.Size = new System.Drawing.Size(142, 24);
             this.txt_Name.TabIndex = 2;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(275, 46);
+            this.label3.Font = new System.Drawing.Font("Segoe Script", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.Location = new System.Drawing.Point(332, 73);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 15);
+            this.label3.Size = new System.Drawing.Size(133, 33);
             this.label3.TabIndex = 3;
             this.label3.Text = "Total Bill: ";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(275, 18);
+            this.label4.Font = new System.Drawing.Font("Segoe Script", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Black;
+            this.label4.Location = new System.Drawing.Point(332, 13);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(39, 15);
+            this.label4.Size = new System.Drawing.Size(77, 33);
             this.label4.TabIndex = 4;
             this.label4.Text = "Date: ";
             // 
             // txt_Mobile
             // 
-            this.txt_Mobile.Location = new System.Drawing.Point(83, 46);
+            this.txt_Mobile.Location = new System.Drawing.Point(122, 82);
             this.txt_Mobile.Name = "txt_Mobile";
-            this.txt_Mobile.Size = new System.Drawing.Size(142, 21);
+            this.txt_Mobile.Size = new System.Drawing.Size(142, 24);
             this.txt_Mobile.TabIndex = 5;
             // 
             // lbl_ShowDate
@@ -104,7 +112,7 @@
             this.lbl_ShowDate.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lbl_ShowDate.Location = new System.Drawing.Point(367, 18);
             this.lbl_ShowDate.Name = "lbl_ShowDate";
-            this.lbl_ShowDate.Size = new System.Drawing.Size(0, 15);
+            this.lbl_ShowDate.Size = new System.Drawing.Size(0, 18);
             this.lbl_ShowDate.TabIndex = 6;
             // 
             // lbl_ShowBill
@@ -113,90 +121,103 @@
             this.lbl_ShowBill.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lbl_ShowBill.Location = new System.Drawing.Point(367, 46);
             this.lbl_ShowBill.Name = "lbl_ShowBill";
-            this.lbl_ShowBill.Size = new System.Drawing.Size(0, 15);
+            this.lbl_ShowBill.Size = new System.Drawing.Size(0, 18);
             this.lbl_ShowBill.TabIndex = 7;
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 140);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 233);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(493, 167);
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.Size = new System.Drawing.Size(629, 202);
             this.dataGridView1.TabIndex = 8;
             // 
             // cBox_Item
             // 
             this.cBox_Item.FormattingEnabled = true;
-            this.cBox_Item.Location = new System.Drawing.Point(83, 102);
+            this.cBox_Item.Location = new System.Drawing.Point(122, 145);
             this.cBox_Item.Name = "cBox_Item";
-            this.cBox_Item.Size = new System.Drawing.Size(142, 23);
+            this.cBox_Item.Size = new System.Drawing.Size(142, 26);
             this.cBox_Item.TabIndex = 9;
             this.cBox_Item.SelectedIndexChanged += new System.EventHandler(this.cBox_Item_SelectedIndexChanged);
             // 
             // lbl_Item
             // 
             this.lbl_Item.AutoSize = true;
-            this.lbl_Item.Location = new System.Drawing.Point(15, 110);
+            this.lbl_Item.Font = new System.Drawing.Font("Segoe Script", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Item.ForeColor = System.Drawing.Color.Black;
+            this.lbl_Item.Location = new System.Drawing.Point(15, 141);
             this.lbl_Item.Name = "lbl_Item";
-            this.lbl_Item.Size = new System.Drawing.Size(37, 15);
+            this.lbl_Item.Size = new System.Drawing.Size(75, 33);
             this.lbl_Item.TabIndex = 10;
             this.lbl_Item.Text = "Item: ";
             // 
             // lbl_Quantity
             // 
             this.lbl_Quantity.AutoSize = true;
-            this.lbl_Quantity.Location = new System.Drawing.Point(257, 110);
+            this.lbl_Quantity.Font = new System.Drawing.Font("Segoe Script", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Quantity.ForeColor = System.Drawing.Color.Black;
+            this.lbl_Quantity.Location = new System.Drawing.Point(332, 140);
             this.lbl_Quantity.Name = "lbl_Quantity";
-            this.lbl_Quantity.Size = new System.Drawing.Size(57, 15);
+            this.lbl_Quantity.Size = new System.Drawing.Size(127, 33);
             this.lbl_Quantity.TabIndex = 11;
             this.lbl_Quantity.Text = "Quantity: ";
             // 
             // btn_Submit
             // 
-            this.btn_Submit.Location = new System.Drawing.Point(369, 319);
+            this.btn_Submit.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.btn_Submit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Submit.ForeColor = System.Drawing.Color.Black;
+            this.btn_Submit.Location = new System.Drawing.Point(505, 447);
             this.btn_Submit.Name = "btn_Submit";
             this.btn_Submit.Size = new System.Drawing.Size(136, 35);
             this.btn_Submit.TabIndex = 12;
             this.btn_Submit.Text = "Submit";
-            this.btn_Submit.UseVisualStyleBackColor = true;
+            this.btn_Submit.UseVisualStyleBackColor = false;
             this.btn_Submit.Click += new System.EventHandler(this.btn_Submit_Click);
             // 
             // cBox_Quantity
             // 
             this.cBox_Quantity.FormattingEnabled = true;
-            this.cBox_Quantity.Location = new System.Drawing.Point(320, 102);
+            this.cBox_Quantity.Location = new System.Drawing.Point(505, 140);
             this.cBox_Quantity.Name = "cBox_Quantity";
-            this.cBox_Quantity.Size = new System.Drawing.Size(142, 23);
+            this.cBox_Quantity.Size = new System.Drawing.Size(142, 26);
             this.cBox_Quantity.TabIndex = 13;
             this.cBox_Quantity.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
             // btn_Ok
             // 
-            this.btn_Ok.Location = new System.Drawing.Point(468, 101);
+            this.btn_Ok.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.btn_Ok.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Ok.ForeColor = System.Drawing.Color.Black;
+            this.btn_Ok.Location = new System.Drawing.Point(585, 181);
             this.btn_Ok.Name = "btn_Ok";
-            this.btn_Ok.Size = new System.Drawing.Size(37, 23);
+            this.btn_Ok.Size = new System.Drawing.Size(56, 33);
             this.btn_Ok.TabIndex = 14;
             this.btn_Ok.Text = "Ok";
-            this.btn_Ok.UseVisualStyleBackColor = true;
+            this.btn_Ok.UseVisualStyleBackColor = false;
             this.btn_Ok.Click += new System.EventHandler(this.btn_Ok_Click);
             // 
             // btn_cancel
             // 
-            this.btn_cancel.ForeColor = System.Drawing.Color.Crimson;
-            this.btn_cancel.Location = new System.Drawing.Point(15, 325);
+            this.btn_cancel.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.btn_cancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_cancel.ForeColor = System.Drawing.Color.Black;
+            this.btn_cancel.Location = new System.Drawing.Point(12, 447);
             this.btn_cancel.Name = "btn_cancel";
             this.btn_cancel.Size = new System.Drawing.Size(47, 29);
             this.btn_cancel.TabIndex = 15;
             this.btn_cancel.Text = "X";
-            this.btn_cancel.UseVisualStyleBackColor = true;
+            this.btn_cancel.UseVisualStyleBackColor = false;
             this.btn_cancel.Click += new System.EventHandler(this.btn_cancel_Click);
             // 
             // NewTransaction
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(517, 360);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.ClientSize = new System.Drawing.Size(653, 500);
             this.Controls.Add(this.btn_cancel);
             this.Controls.Add(this.btn_Ok);
             this.Controls.Add(this.cBox_Quantity);

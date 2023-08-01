@@ -21,10 +21,6 @@ namespace Medical_Store_Management_SoftWare
 
         }
 
-        private void Home_Load(object sender, EventArgs e)
-        {
-
-        }
 
         private void addToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -130,6 +126,6 @@ namespace Medical_Store_Management_SoftWare
             ex.Show();
         }
 
-       
+    
     }
 }

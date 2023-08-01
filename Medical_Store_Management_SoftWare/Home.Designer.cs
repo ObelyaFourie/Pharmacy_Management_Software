@@ -57,17 +57,18 @@
             // 
             // statusStrip1
             // 
-            this.statusStrip1.BackColor = System.Drawing.Color.OrangeRed;
+            this.statusStrip1.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1,
             this.UserID,
             this.lbl_GetIDhere,
             this.UserType,
             this.lbl_GetUsertype});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 425);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 421);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 16, 0);
-            this.statusStrip1.Size = new System.Drawing.Size(654, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(654, 26);
             this.statusStrip1.TabIndex = 0;
             this.statusStrip1.Text = "statusStrip1";
             this.statusStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.statusStrip1_ItemClicked);
@@ -75,35 +76,40 @@
             // toolStripStatusLabel1
             // 
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(0, 17);
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(0, 20);
             // 
             // UserID
             // 
+            this.UserID.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UserID.Name = "UserID";
-            this.UserID.Size = new System.Drawing.Size(47, 17);
+            this.UserID.Size = new System.Drawing.Size(80, 20);
             this.UserID.Text = "UserID :";
             // 
             // lbl_GetIDhere
             // 
+            this.lbl_GetIDhere.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_GetIDhere.Name = "lbl_GetIDhere";
-            this.lbl_GetIDhere.Size = new System.Drawing.Size(59, 17);
+            this.lbl_GetIDhere.Size = new System.Drawing.Size(95, 20);
             this.lbl_GetIDhere.Text = "GetIDhere";
             // 
             // UserType
             // 
+            this.UserType.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UserType.Name = "UserType";
-            this.UserType.Size = new System.Drawing.Size(62, 17);
+            this.UserType.Size = new System.Drawing.Size(101, 20);
             this.UserType.Text = "UserType :";
             // 
             // lbl_GetUsertype
             // 
+            this.lbl_GetUsertype.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_GetUsertype.Name = "lbl_GetUsertype";
-            this.lbl_GetUsertype.Size = new System.Drawing.Size(71, 17);
+            this.lbl_GetUsertype.Size = new System.Drawing.Size(114, 20);
             this.lbl_GetUsertype.Text = "GetUsertype";
             // 
             // menuStrip1
             // 
-            this.menuStrip1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.menuStrip1.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.stoToolStripMenuItem,
@@ -111,7 +117,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(654, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(654, 28);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -122,10 +128,10 @@
             this.signOutToolStripMenuItem,
             this.exitToolStripMenuItem,
             this.exitToolStripMenuItem1});
-            this.fileToolStripMenuItem.Font = new System.Drawing.Font("Modern No. 20", 10F);
-            this.fileToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.fileToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fileToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(43, 20);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(54, 24);
             this.fileToolStripMenuItem.Text = "File";
             this.fileToolStripMenuItem.Click += new System.EventHandler(this.fileToolStripMenuItem_Click);
             // 
@@ -136,48 +142,48 @@
             this.deleteToolStripMenuItem,
             this.viewToolStripMenuItem});
             this.addUserToolStripMenuItem.Name = "addUserToolStripMenuItem";
-            this.addUserToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
+            this.addUserToolStripMenuItem.Size = new System.Drawing.Size(243, 26);
             this.addUserToolStripMenuItem.Text = "User";
             // 
             // addToolStripMenuItem
             // 
             this.addToolStripMenuItem.Name = "addToolStripMenuItem";
-            this.addToolStripMenuItem.Size = new System.Drawing.Size(112, 22);
+            this.addToolStripMenuItem.Size = new System.Drawing.Size(147, 26);
             this.addToolStripMenuItem.Text = "Add";
             this.addToolStripMenuItem.Click += new System.EventHandler(this.addToolStripMenuItem_Click);
             // 
             // deleteToolStripMenuItem
             // 
             this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
-            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(112, 22);
+            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(147, 26);
             this.deleteToolStripMenuItem.Text = "Delete";
             this.deleteToolStripMenuItem.Click += new System.EventHandler(this.deleteToolStripMenuItem_Click);
             // 
             // viewToolStripMenuItem
             // 
             this.viewToolStripMenuItem.Name = "viewToolStripMenuItem";
-            this.viewToolStripMenuItem.Size = new System.Drawing.Size(112, 22);
+            this.viewToolStripMenuItem.Size = new System.Drawing.Size(147, 26);
             this.viewToolStripMenuItem.Text = "View";
             this.viewToolStripMenuItem.Click += new System.EventHandler(this.viewToolStripMenuItem_Click);
             // 
             // signOutToolStripMenuItem
             // 
             this.signOutToolStripMenuItem.Name = "signOutToolStripMenuItem";
-            this.signOutToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
+            this.signOutToolStripMenuItem.Size = new System.Drawing.Size(243, 26);
             this.signOutToolStripMenuItem.Text = "Sign Out";
             this.signOutToolStripMenuItem.Click += new System.EventHandler(this.signOutToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(243, 26);
             this.exitToolStripMenuItem.Text = "Change Password";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem1
             // 
             this.exitToolStripMenuItem1.Name = "exitToolStripMenuItem1";
-            this.exitToolStripMenuItem1.Size = new System.Drawing.Size(173, 22);
+            this.exitToolStripMenuItem1.Size = new System.Drawing.Size(243, 26);
             this.exitToolStripMenuItem1.Text = "Exit";
             this.exitToolStripMenuItem1.Click += new System.EventHandler(this.exitToolStripMenuItem1_Click);
             // 
@@ -186,23 +192,23 @@
             this.stoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.editProductToolStripMenuItem,
             this.checkStoreToolStripMenuItem});
-            this.stoToolStripMenuItem.Font = new System.Drawing.Font("Modern No. 20", 10F);
-            this.stoToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.stoToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stoToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.stoToolStripMenuItem.Name = "stoToolStripMenuItem";
-            this.stoToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
+            this.stoToolStripMenuItem.Size = new System.Drawing.Size(88, 24);
             this.stoToolStripMenuItem.Text = "Storage";
             // 
             // editProductToolStripMenuItem
             // 
             this.editProductToolStripMenuItem.Name = "editProductToolStripMenuItem";
-            this.editProductToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.editProductToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.editProductToolStripMenuItem.Text = "Edit Product";
             this.editProductToolStripMenuItem.Click += new System.EventHandler(this.editProductToolStripMenuItem_Click);
             // 
             // checkStoreToolStripMenuItem
             // 
             this.checkStoreToolStripMenuItem.Name = "checkStoreToolStripMenuItem";
-            this.checkStoreToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.checkStoreToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.checkStoreToolStripMenuItem.Text = "Check Store";
             this.checkStoreToolStripMenuItem.Click += new System.EventHandler(this.checkStoreToolStripMenuItem_Click);
             // 
@@ -211,43 +217,43 @@
             this.transactionToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.newToolStripMenuItem,
             this.existingToolStripMenuItem});
-            this.transactionToolStripMenuItem.Font = new System.Drawing.Font("Modern No. 20", 10F);
-            this.transactionToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.transactionToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.transactionToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.transactionToolStripMenuItem.Name = "transactionToolStripMenuItem";
-            this.transactionToolStripMenuItem.Size = new System.Drawing.Size(87, 20);
+            this.transactionToolStripMenuItem.Size = new System.Drawing.Size(122, 24);
             this.transactionToolStripMenuItem.Text = "Transaction";
             // 
             // newToolStripMenuItem
             // 
             this.newToolStripMenuItem.Name = "newToolStripMenuItem";
-            this.newToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.newToolStripMenuItem.Size = new System.Drawing.Size(159, 26);
             this.newToolStripMenuItem.Text = "New";
             this.newToolStripMenuItem.Click += new System.EventHandler(this.newToolStripMenuItem_Click);
             // 
             // existingToolStripMenuItem
             // 
             this.existingToolStripMenuItem.Name = "existingToolStripMenuItem";
-            this.existingToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.existingToolStripMenuItem.Size = new System.Drawing.Size(159, 26);
             this.existingToolStripMenuItem.Text = "Existing";
             this.existingToolStripMenuItem.Click += new System.EventHandler(this.existingToolStripMenuItem_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Font = new System.Drawing.Font("Script MT Bold", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label1.Location = new System.Drawing.Point(453, 47);
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.label1.Font = new System.Drawing.Font("Segoe Script", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(436, 45);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(162, 42);
+            this.label1.Size = new System.Drawing.Size(206, 61);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Welcome !";
+            this.label1.Text = "Welcome!";
             // 
             // Home
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(654, 447);
@@ -263,7 +269,6 @@
             this.Text = "Home";
             this.TopMost = true;
             this.TransparencyKey = System.Drawing.Color.White;
-            this.Load += new System.EventHandler(this.Home_Load);
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
             this.menuStrip1.ResumeLayout(false);

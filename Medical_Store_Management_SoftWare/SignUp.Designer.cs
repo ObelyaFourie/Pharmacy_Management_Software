@@ -37,37 +37,41 @@
             // lbl_confirmpassword
             // 
             this.lbl_confirmpassword.AutoSize = true;
-            this.lbl_confirmpassword.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_confirmpassword.ForeColor = System.Drawing.Color.Maroon;
-            this.lbl_confirmpassword.Location = new System.Drawing.Point(36, 34);
+            this.lbl_confirmpassword.Font = new System.Drawing.Font("Segoe Script", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_confirmpassword.ForeColor = System.Drawing.Color.Black;
+            this.lbl_confirmpassword.Location = new System.Drawing.Point(2, 24);
             this.lbl_confirmpassword.Name = "lbl_confirmpassword";
-            this.lbl_confirmpassword.Size = new System.Drawing.Size(136, 18);
+            this.lbl_confirmpassword.Size = new System.Drawing.Size(260, 38);
             this.lbl_confirmpassword.TabIndex = 0;
             this.lbl_confirmpassword.Text = "Confirm Password :";
             // 
             // txt_confirmpassword
             // 
-            this.txt_confirmpassword.Location = new System.Drawing.Point(201, 34);
+            this.txt_confirmpassword.Location = new System.Drawing.Point(268, 34);
             this.txt_confirmpassword.Name = "txt_confirmpassword";
             this.txt_confirmpassword.PasswordChar = '#';
-            this.txt_confirmpassword.Size = new System.Drawing.Size(198, 20);
+            this.txt_confirmpassword.Size = new System.Drawing.Size(198, 23);
             this.txt_confirmpassword.TabIndex = 1;
             // 
             // btn_submit
             // 
-            this.btn_submit.Location = new System.Drawing.Point(149, 80);
+            this.btn_submit.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.btn_submit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_submit.ForeColor = System.Drawing.Color.Black;
+            this.btn_submit.Location = new System.Drawing.Point(182, 73);
             this.btn_submit.Name = "btn_submit";
-            this.btn_submit.Size = new System.Drawing.Size(87, 23);
+            this.btn_submit.Size = new System.Drawing.Size(131, 49);
             this.btn_submit.TabIndex = 2;
             this.btn_submit.Text = "Submit";
-            this.btn_submit.UseVisualStyleBackColor = true;
+            this.btn_submit.UseVisualStyleBackColor = false;
             this.btn_submit.Click += new System.EventHandler(this.btn_submit_Click);
             // 
             // SignUp
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(422, 124);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.ClientSize = new System.Drawing.Size(478, 134);
             this.Controls.Add(this.btn_submit);
             this.Controls.Add(this.txt_confirmpassword);
             this.Controls.Add(this.lbl_confirmpassword);
